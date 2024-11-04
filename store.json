@@ -1,0 +1,87 @@
+{
+  "product": [{
+
+      "name": "Keqing Costume",
+      "description": "Game Genshin Impact Keqing Cosplay Costumes Genshin Ke Qing Impact Halloween Keqing Ponytails Mixed Purple Cosplay",
+      "image": "KeqingCostume.jpeg",
+      "price": "1,250"
+    },
+    
+    {
+
+      "name": "Raiden Shogun Costume",
+      "description": "Genshin Impact Raiden Shogun Cosplay Costume Accessory Uniform Outfits Halloween",
+      "image": "RaidenShogunCostume.jpeg",
+      "price": "1,100"
+    },
+    
+    {
+
+      "name": "Wanderer Costume",
+      "description": "Genshin Impact Wanderer Balladeer Cosplay Costume Scaramouche Men Women Outfits",
+      "image": "WandererBalladeerCostume.jpeg",
+      "price": "2,200"
+    },
+    
+    {
+
+      "name": "QiqiCostume",
+      "description": "Genshin Impact Qiqi Cosplay Costume, Zombie Purple Outfit Qiqi Game Dress Full Set for Women",
+      "image": "QiqiCostume.jpeg",
+      "price": "1,436"
+    },
+    
+    {
+
+      "name": "Hu Tao Costume",
+      "description": "Embrace the Burning Spirit of Hu Tao with Fantasia Cosplay Genshin Impact Hutao!",
+      "image": "HuTaoCostume.jpeg",
+      "price": "1,556"
+    },
+    
+    
+    {
+
+      "name": "Neuvillette Costume",
+      "description": "This cosplay costume is based on the character Neuvillette from Genshin Impact. It can be used in cosplay conventions and Halloween parties.",
+      "image": "NeuvilletteCosplayCostume.jpeg",
+      "price": "8,120"
+    },
+     
+    {
+
+      "name": "Klee Cosplay Costume",
+      "description": "Anime Genshin Impact Klee Witch Skin Cosplay Kids Maid Outfit Cute Dress for Girls Halloween Costume Backpack Wig",
+      "image": "KleeCostume.jpeg",
+      "price": "1,220"
+    },
+    
+    {
+
+      "name": "Barbara Costume Cosplay",
+      "description": "Genshin Impact Barbara Cosplay Costume Barbara Dress Cosplay Game Genshin Impact Costume Uniforms Book Women Halloween",
+      "image": "BarbaraCosplayCostume.jpeg",
+      "price": "1,199"
+    },
+    
+    
+    {
+
+      "name": "Layla Costume Cosplay",
+      "description": "Game Genshin Impact Layla Cosplay Costume Women Dress Uniform Fulllset Outfit",
+      "image": "LaylaCosplayCostume.jpeg",
+      "price": "1,415"
+    },
+    
+    
+    {
+
+      "name": "ZhongliMorax Costume",
+      "description": "Cosplay Zhongli  is a great choice for cosplay events, conventions, and as a unique piece of your Genshin Impact collection. This set will meet the expectations of both beginners and experienced cosplayers.",
+      "image": "ZhongliMoraxCosplayCostume.jpeg",
+      "price": "4,617"
+    }
+    
+
+  ]
+}

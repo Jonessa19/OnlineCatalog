@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE COSPLAYSHOP</title>
+<style>
+        .body,footer {
+            font-family: "Times New Roman",Times, serif;
+            margin: 0; 
+            padding: 0;
+            text-align: center;
+            background-image:linea#319EFFr-gradient(#e6e6fa, #b0c4de);
+        }
+        h1{
+            margin: 20px 0;
+            font-size: 2em;
+            border-bottom: 1px dotted #000;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .costume-card {
+            border: 6px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            background-color: #00D4FF;
+           
+        }
+        .costume-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .costume-card h3 {
+            margin: 10px 0;
+        }
+        .costume-card p {
+            color: #0017A4;
+        }
+        .price {
+            font-weight: bold;
+            color: ##2024A2
+        
+}
+   </style>
+</head>
+<body>
+  <header>
+    <h1 align = "center">JUDELYN'S ONLINE COSTUMESHOP</h1></header>
+    <div class="container" id="judelyn"></div>
+
+    <script>
+        // Fetch data from the JSON file
+      fetch('store.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('judelyn');
+      data.product.forEach(costume=> { 
+        const yunjud = document.createElement('judelyn');
+        yunjud.className = 'costume-card';
+        yunjud.innerHTML = `<img src="${costume.image}" costume="${costume.name}">
+             <h3>${costume.name}</h3>
+             <p>${costume.description}</p>
+             <p class="price">${costume.price}</p>
+                    `;
+               container.appendChild(yunjud);
+          });
+      })
+         .catch(error => {
+            console.error('error', error);
+         });
+    </script>
+    
+    <footer>
+      <p>Designed By: JUDELYN CANTIGA</p>
+      <p>G-12 COOPER</p>
+    </footer>
+</body>
+</html>
